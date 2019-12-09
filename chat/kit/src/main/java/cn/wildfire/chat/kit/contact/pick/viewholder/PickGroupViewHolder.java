@@ -7,7 +7,7 @@ import cn.wildfire.chat.kit.annotation.LayoutRes;
 import cn.wildfire.chat.kit.contact.UserListAdapter;
 import cn.wildfire.chat.kit.contact.model.GroupValue;
 import cn.wildfire.chat.kit.contact.viewholder.header.HeaderViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 @SuppressWarnings("unused")
 @LayoutRes(resId = R.layout.contact_header_group)

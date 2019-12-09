@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class BlacklistListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<String> blackedUserIds;

@@ -36,7 +36,7 @@ import cn.wildfire.chat.kit.conversation.message.viewholder.MessageViewHolderMan
 import cn.wildfire.chat.kit.conversation.message.viewholder.NormalMessageContentViewHolder;
 import cn.wildfire.chat.kit.conversation.message.viewholder.NotificationMessageContentViewHolder;
 import cn.wildfire.chat.kit.conversation.message.viewholder.SimpleNotificationMessageContentViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.Message;
 import cn.wildfirechat.model.UserInfo;
 import cn.wildfirechat.remote.ChatManager;

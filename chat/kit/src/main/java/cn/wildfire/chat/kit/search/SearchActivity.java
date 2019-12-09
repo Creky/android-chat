@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 /**
  * 如果启动{@link android.content.Intent}里面包含keyword，直接开始搜索

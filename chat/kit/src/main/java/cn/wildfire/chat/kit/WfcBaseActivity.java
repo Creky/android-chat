@@ -18,7 +18,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public abstract class WfcBaseActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)

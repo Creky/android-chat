@@ -1,6 +1,6 @@
 package cn.wildfire.chat.kit;
 
-import cn.wildfirechat.chat.BuildConfig;
+import com.weilaizhihui.xchat.BuildConfig;
 
 public interface WfcIntent {
     String ACTION_MAIN = BuildConfig.APPLICATION_ID + ".main";

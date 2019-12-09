@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-chat.iml" filepath="$PROJECT_DIR$/android-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/avenginekit/avenginekit.iml" filepath="$PROJECT_DIR$/avenginekit/avenginekit.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/com.github.wildfirechat-client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/com.github.wildfirechat-client.iml" group="xChat/client" />
       <module fileurl="file://$PROJECT_DIR$/emojilibrary/emojilibrary.iml" filepath="$PROJECT_DIR$/emojilibrary/emojilibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/imagepicker/imagepicker.iml" filepath="$PROJECT_DIR$/imagepicker/imagepicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/mars-core-release/mars-core-release.iml" filepath="$PROJECT_DIR$/mars-core-release/mars-core-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/push/push.iml" filepath="$PROJECT_DIR$/push/push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xChat.iml" filepath="$PROJECT_DIR$/xChat.iml" group="xChat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/avenginekit/xChat-avenginekit.iml" filepath="$PROJECT_DIR$/.idea/modules/avenginekit/xChat-avenginekit.iml" group="xChat/avenginekit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chat/xChat-chat.iml" filepath="$PROJECT_DIR$/.idea/modules/chat/xChat-chat.iml" group="xChat/chat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emojilibrary/xChat-emojilibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/emojilibrary/xChat-emojilibrary.iml" group="xChat/emojilibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imagepicker/xChat-imagepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/imagepicker/xChat-imagepicker.iml" group="xChat/imagepicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mars-core-release/xChat-mars-core-release.iml" filepath="$PROJECT_DIR$/.idea/modules/mars-core-release/xChat-mars-core-release.iml" group="xChat/mars-core-release" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/push/xChat-push.iml" filepath="$PROJECT_DIR$/.idea/modules/push/xChat-push.iml" group="xChat/push" />
     </modules>
   </component>
 </project>

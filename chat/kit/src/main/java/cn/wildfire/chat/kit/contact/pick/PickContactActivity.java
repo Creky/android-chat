@@ -14,7 +14,7 @@ import java.util.List;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.contact.model.UIUserInfo;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.UserInfo;
 
 public class PickContactActivity extends WfcBaseActivity {

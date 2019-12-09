@@ -9,7 +9,7 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupInfo;
 
 public class GroupListAdapter extends RecyclerView.Adapter<GroupViewHolder> {

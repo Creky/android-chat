@@ -12,7 +12,7 @@ import java.util.List;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.contact.model.UIUserInfo;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public abstract class PickConversationTargetActivity extends WfcBaseActivity implements PickConversationTargetFragment.OnGroupPickListener {
     public static final String CURRENT_PARTICIPANTS = "currentParticipants";

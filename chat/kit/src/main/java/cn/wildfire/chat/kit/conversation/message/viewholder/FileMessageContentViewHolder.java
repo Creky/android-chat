@@ -22,7 +22,7 @@ import cn.wildfire.chat.kit.conversation.message.model.UiMessage;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
 import cn.wildfire.chat.kit.utils.FileUtils;
 import cn.wildfire.chat.kit.widget.BubbleImageView;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.FileMessageContent;
 import cn.wildfirechat.message.core.MessageStatus;
 

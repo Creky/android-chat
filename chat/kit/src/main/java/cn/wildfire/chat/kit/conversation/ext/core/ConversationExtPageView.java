@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import androidx.annotation.Nullable;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class ConversationExtPageView extends LinearLayout implements View.OnClickListener {
     private OnExtViewClickListener listener;

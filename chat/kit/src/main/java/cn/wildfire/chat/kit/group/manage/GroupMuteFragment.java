@@ -16,7 +16,7 @@ import com.kyleduo.switchbutton.SwitchButton;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import cn.wildfire.chat.kit.group.GroupViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupInfo;
 
 public class GroupMuteFragment extends Fragment {

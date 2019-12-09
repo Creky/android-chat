@@ -1,7 +1,7 @@
 package cn.wildfire.chat.kit.chatroom;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class ChatRoomListActivity extends WfcBaseActivity {
 

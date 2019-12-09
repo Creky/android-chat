@@ -21,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import cn.wildfire.chat.app.login.SMSLoginActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class SplashActivity extends AppCompatActivity {
 

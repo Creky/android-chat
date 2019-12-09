@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class CategoryViewHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.categoryTextView)

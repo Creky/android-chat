@@ -1,32 +1,52 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    signingConfigs {
-        wfc {
-            keyAlias 'wfc'
-            keyPassword 'wildfirechat'
-            storeFile file('../wfc.keystore')
-            storePassword 'wildfirechat'
+    def propFile = file('../signing.properties')
+    print(propFile.absolutePath);
+    if (propFile.canRead()) {
+        println "\nload signingConfigs form signing.properties"
+        Properties p = new Properties()
+        p.load(new FileInputStream(propFile))
+        if (p != null
+                && p.containsKey('KEY_STORE_FILE')
+                && p.containsKey('KEY_STORE_PASSWORD')
+                && p.containsKey('KEY_ALIAS')
+                && p.containsKey('KEY_PASSWORD')
+        ) {
+            android {
+                signingConfigs {
+                    release {
+                        storeFile file(System.properties['user.home'] + p['KEY_STORE_FILE'])
+                        storePassword p['KEY_STORE_PASSWORD']
+                        keyAlias p['KEY_ALIAS']
+                        keyPassword p['KEY_PASSWORD']
+                    }
+                }
+            }
         }
+
+    } else {
+        println "\nsigningConfigs: Required properties in System Environment variables or signing.properties are missing"
     }
-    compileSdkVersion 28
+
+    compileSdkVersion 29
     aaptOptions.cruncherEnabled = false
-    aaptOptions.useNewCruncher = false
     defaultConfig {
-        applicationId "cn.wildfirechat.chat"
-        minSdkVersion 16
-        targetSdkVersion 28 //当targetversion大于23时，需要使用fileprovider
-        versionCode 19
-        versionName "0.6.5"
+        applicationId "com.weilaizhihui.xchat"
+        minSdkVersion 21
+        targetSdkVersion 29 //当targetversion大于23时，需要使用fileprovider
+        versionCode 1
+        versionName "1.0.0"
         multiDexEnabled true
         javaCompileOptions {
             annotationProcessorOptions {
                 includeCompileClasspath true
             }
         }
-        signingConfig signingConfigs.wfc
+        signingConfig signingConfigs.release
 
-        buildConfigField("String", "BuglyId", '"34490ba79f"')
+        buildConfigField("String", "BUGLY_ID", '"103311fdb2"')
 
         ndk {
             abiFilters "armeabi-v7a", 'x86', 'x86_64' // ，'armeabi', 'arm64-v8a', 'x86', 'x86_64'
@@ -36,12 +56,12 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.wfc
+            signingConfig signingConfigs.release
         }
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.wfc
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -68,48 +88,70 @@ android {
         sourceCompatibility 1.8
         targetCompatibility 1.8
     }
+
+    def runTasks = gradle.startParameter.taskNames
+    if ('b' in runTasks || 'build' in runTasks) {
+        applicationVariants.all { variant ->
+            variant.outputs.all {
+                if (outputFileName != null && outputFileName.endsWith('.apk')) {
+                    StringBuilder sb = new StringBuilder("../");
+                    if (variant.name.length() > 1) {
+                        sb.append(Character.toUpperCase(variant.name.charAt(0))).append(variant.name.substring(1).replace("Release", "").replace("Debug", "_Debug"));
+                    }
+                    outputFileName = sb.append(".apk").toString()
+                }
+            }
+        }
+    }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation files('libs/TencentLocationSDK_v4.9.7.12_r247861_161205_1104.jar')
-    implementation files('libs/TencentMapSDK_Raster_v_1.2.7_51ae0e7.jar')
-    implementation files('libs/TencentSearch1.1.3.jar')
 
-    implementation 'com.tencent.bugly:crashreport:2.8.6.0'
-    implementation 'com.tencent.bugly:nativecrashreport:3.6.0.1'
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "androidx.percentlayout:percentlayout:1.0.0"
+    implementation "androidx.annotation:annotation:1.1.0"
+    implementation "com.google.android.material:material:1.2.0-alpha02"
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation 'com.tencent.bugly:crashreport:3.1.0'
+    implementation 'com.tencent.bugly:nativecrashreport:3.7.1'
     implementation 'com.lqr.adapter:library:1.0.2'
     implementation 'com.jaeger.statusbaruitl:library:1.3.5'
-    implementation project(':push')
 
-    // wfc kit start
-    implementation fileTree(include: ['*.jar'], dir: 'kit/libs')
-    implementation 'androidx.appcompat:appcompat:1.1.0-beta01'
-    implementation 'com.google.android.material:material:1.1.0-alpha10'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
     implementation 'cjt.library.wheel:camera:1.1.9'
     implementation 'com.kyleduo.switchbutton:library:1.4.4'
-    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
-    implementation 'com.squareup.okio:okio:1.14.0'
-    implementation 'com.jakewharton:butterknife:10.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.2'
+    implementation 'com.squareup.okio:okio:1.17.2'
+
+    annotationProcessor 'com.jakewharton:butterknife:10.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     implementation 'org.webrtc:google-webrtc:1.0.21929'
     implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
     implementation 'q.rorbin:badgeview:1.1.3'
     implementation 'com.google.code.gson:gson:2.8.5'
 
-    // ViewModel and LiveData
-    def lifecycle_version = '2.2.0-alpha05'
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
-
-    implementation project(':client')
-    implementation project(':avenginekit')
-    implementation project(':emojilibrary')
-    implementation project(':imagepicker')
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0-rc03"
 
     implementation 'com.king.zxing:zxing-lite:1.1.1'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
-    // kit wfc end
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    implementation 'com.jakewharton:butterknife-annotations:10.2.0'
+    implementation 'joda-time:joda-time:2.10.5'
+    implementation 'com.belerweb:pinyin4j:2.5.1'
+
+    implementation project(':push')
+    implementation project(':client')
+    implementation project(':emojilibrary')
+    implementation project(':imagepicker')
+    implementation project(':avenginekit')
+    implementation project(':mars-core-release')
 }

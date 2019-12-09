@@ -17,7 +17,7 @@ import cn.wildfire.chat.kit.conversationlist.notification.StatusNotificationView
 import cn.wildfire.chat.kit.group.GroupViewModel;
 import cn.wildfire.chat.kit.user.UserViewModel;
 import cn.wildfire.chat.kit.widget.ProgressFragment;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.client.ConnectionStatus;
 import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.GroupInfo;

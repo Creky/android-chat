@@ -24,7 +24,7 @@ import cn.wildfire.chat.kit.conversation.ConversationFragment;
 import cn.wildfire.chat.kit.conversation.message.model.UiMessage;
 import cn.wildfire.chat.kit.widget.LinkClickListener;
 import cn.wildfire.chat.kit.widget.LinkTextViewMovementMethod;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.PTextMessageContent;
 import cn.wildfirechat.message.TextMessageContent;
 

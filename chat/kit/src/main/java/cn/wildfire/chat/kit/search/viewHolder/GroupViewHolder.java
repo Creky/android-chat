@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide;
 import androidx.fragment.app.Fragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupSearchResult;
 
 public class GroupViewHolder extends ResultItemViewHolder<GroupSearchResult> {

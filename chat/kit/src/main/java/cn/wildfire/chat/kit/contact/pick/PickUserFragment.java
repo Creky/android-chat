@@ -21,7 +21,7 @@ import cn.wildfire.chat.kit.contact.BaseUserListFragment;
 import cn.wildfire.chat.kit.contact.UserListAdapter;
 import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.widget.QuickIndexBar;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public abstract class PickUserFragment extends BaseUserListFragment implements QuickIndexBar.OnLetterUpdateListener {
     private SearchAndPickUserFragment searchAndPickUserFragment;

@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.wildfire.chat.kit.chatroom.ChatRoomListActivity;
 import cn.wildfire.chat.kit.conversation.ConversationActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.Conversation;
 
 public class DiscoveryFragment extends Fragment {

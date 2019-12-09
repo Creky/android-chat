@@ -17,7 +17,7 @@ import cn.wildfire.chat.kit.annotation.ExtContextMenuItem;
 import cn.wildfire.chat.kit.conversation.ext.core.ConversationExt;
 import cn.wildfire.chat.kit.group.GroupViewModel;
 import cn.wildfire.chat.kit.group.PickGroupMemberActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.GroupInfo;
 

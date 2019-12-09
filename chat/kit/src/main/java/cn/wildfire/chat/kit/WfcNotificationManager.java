@@ -17,7 +17,7 @@ import java.util.List;
 
 import cn.wildfire.chat.app.main.MainActivity;
 import cn.wildfire.chat.kit.conversation.ConversationActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.Message;
 import cn.wildfirechat.message.core.MessageDirection;
 import cn.wildfirechat.message.notification.RecallMessageContent;

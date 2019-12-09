@@ -15,7 +15,7 @@ import cn.wildfire.chat.kit.net.OKHttpHelper;
 import cn.wildfire.chat.kit.net.SimpleCallback;
 import cn.wildfire.chat.kit.settings.PrivacySettingActivity;
 import cn.wildfire.chat.kit.widget.OptionItemView;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class SettingActivity extends WfcBaseActivity {
     @BindView(R.id.diagnoseOptionItemView)

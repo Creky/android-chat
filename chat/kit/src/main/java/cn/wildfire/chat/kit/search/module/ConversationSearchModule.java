@@ -14,7 +14,7 @@ import cn.wildfire.chat.kit.conversation.ConversationActivity;
 import cn.wildfire.chat.kit.search.SearchMessageActivity;
 import cn.wildfire.chat.kit.search.SearchableModule;
 import cn.wildfire.chat.kit.search.viewHolder.ConversationViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.ConversationSearchResult;
 import cn.wildfirechat.remote.ChatManager;
 

@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import cn.wildfire.chat.kit.channel.viewholder.CategoryViewHolder;
 import cn.wildfire.chat.kit.channel.viewholder.ChannelViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.ChannelInfo;
 
 public class ChannelListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

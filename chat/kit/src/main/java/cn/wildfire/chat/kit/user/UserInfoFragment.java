@@ -36,7 +36,7 @@ import cn.wildfire.chat.kit.conversation.ConversationActivity;
 import cn.wildfire.chat.kit.qrcode.QRCodeActivity;
 import cn.wildfire.chat.kit.third.utils.ImageUtils;
 import cn.wildfire.chat.kit.widget.OptionItemView;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.UserInfo;
 import cn.wildfirechat.remote.ChatManager;

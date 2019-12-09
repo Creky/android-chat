@@ -13,7 +13,7 @@ import butterknife.OnClick;
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.contact.ContactViewModel;
 import cn.wildfire.chat.kit.user.UserViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.UserInfo;
 
 public class InviteFriendActivity extends WfcBaseActivity {

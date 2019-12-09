@@ -11,7 +11,7 @@ import cn.wildfire.chat.app.third.location.ui.activity.MyLocationActivity;
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.annotation.ExtContextMenuItem;
 import cn.wildfire.chat.kit.conversation.ext.core.ConversationExt;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.TypingMessageContent;
 import cn.wildfirechat.model.Conversation;
 

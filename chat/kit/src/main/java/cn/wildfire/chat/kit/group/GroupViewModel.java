@@ -25,7 +25,7 @@ import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.user.UserViewModel;
 import cn.wildfire.chat.kit.utils.PinyinUtils;
 import cn.wildfire.chat.kit.utils.portrait.CombineBitmapTools;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.MessageContentMediaType;
 import cn.wildfirechat.message.notification.GroupNotificationMessageContent;
 import cn.wildfirechat.message.notification.NotificationMessageContent;

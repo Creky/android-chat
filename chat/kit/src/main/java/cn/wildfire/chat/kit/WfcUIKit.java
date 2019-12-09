@@ -33,7 +33,7 @@ import cn.wildfire.chat.kit.common.AppScopeViewModel;
 import cn.wildfire.chat.kit.voip.AsyncPlayer;
 import cn.wildfire.chat.kit.voip.SingleVoipCallActivity;
 import cn.wildfirechat.avenginekit.AVEngineKit;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.client.NotInitializedExecption;
 import cn.wildfirechat.message.Message;
 import cn.wildfirechat.message.core.PersistFlag;

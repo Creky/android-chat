@@ -17,7 +17,7 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.contact.pick.PickUserViewModel;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupInfo;
 
 public class AddGroupMemberActivity extends WfcBaseActivity {

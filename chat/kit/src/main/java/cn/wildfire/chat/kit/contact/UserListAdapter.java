@@ -19,7 +19,7 @@ import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.contact.viewholder.UserViewHolder;
 import cn.wildfire.chat.kit.contact.viewholder.footer.FooterViewHolder;
 import cn.wildfire.chat.kit.contact.viewholder.header.HeaderViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class UserListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int TYPE_CONTACT = 1024;

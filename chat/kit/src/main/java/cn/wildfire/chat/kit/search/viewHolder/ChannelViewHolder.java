@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.ChannelInfo;
 
 public class ChannelViewHolder extends RecyclerView.ViewHolder {

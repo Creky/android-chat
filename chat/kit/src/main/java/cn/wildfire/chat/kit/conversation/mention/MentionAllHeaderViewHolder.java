@@ -7,7 +7,7 @@ import cn.wildfire.chat.kit.annotation.LayoutRes;
 import cn.wildfire.chat.kit.contact.UserListAdapter;
 import cn.wildfire.chat.kit.contact.model.HeaderValue;
 import cn.wildfire.chat.kit.contact.viewholder.header.HeaderViewHolder;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 @LayoutRes(resId = R.layout.conversation_header_mention_all)
 public class MentionAllHeaderViewHolder extends HeaderViewHolder<HeaderValue> {

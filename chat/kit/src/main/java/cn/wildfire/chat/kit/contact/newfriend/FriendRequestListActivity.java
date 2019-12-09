@@ -5,7 +5,7 @@ import android.view.MenuItem;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class FriendRequestListActivity extends WfcBaseActivity {
 

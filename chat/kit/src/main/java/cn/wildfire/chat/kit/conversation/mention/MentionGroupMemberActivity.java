@@ -6,7 +6,7 @@ import java.util.List;
 
 import cn.wildfire.chat.kit.search.SearchActivity;
 import cn.wildfire.chat.kit.search.SearchableModule;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupInfo;
 
 public class MentionGroupMemberActivity extends SearchActivity {

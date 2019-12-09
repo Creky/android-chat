@@ -20,7 +20,7 @@ import cn.wildfire.chat.kit.contact.viewholder.footer.FooterViewHolder;
 import cn.wildfire.chat.kit.contact.viewholder.header.HeaderViewHolder;
 import cn.wildfire.chat.kit.widget.ProgressFragment;
 import cn.wildfire.chat.kit.widget.QuickIndexBar;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public abstract class BaseUserListFragment extends ProgressFragment implements QuickIndexBar.OnLetterUpdateListener, UserListAdapter.OnUserClickListener, UserListAdapter.OnHeaderClickListener, UserListAdapter.OnFooterClickListener {
 

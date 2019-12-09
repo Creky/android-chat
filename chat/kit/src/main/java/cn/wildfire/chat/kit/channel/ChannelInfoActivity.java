@@ -25,7 +25,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.wildfire.chat.kit.common.OperateResult;
 import cn.wildfire.chat.kit.user.UserViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.ChannelInfo;
 
 public class ChannelInfoActivity extends AppCompatActivity {

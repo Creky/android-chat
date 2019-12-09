@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.File;
 
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class AudioRecorderPanel implements View.OnTouchListener {
     private int maxDuration = 60 * 1000;

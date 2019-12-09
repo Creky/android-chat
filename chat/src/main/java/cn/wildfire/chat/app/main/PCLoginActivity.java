@@ -19,7 +19,7 @@ import cn.wildfire.chat.kit.WfcBaseActivity;
 import cn.wildfire.chat.kit.net.OKHttpHelper;
 import cn.wildfire.chat.kit.net.SimpleCallback;
 import cn.wildfire.chat.kit.user.UserViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class PCLoginActivity extends WfcBaseActivity {
     private String token;

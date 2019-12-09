@@ -10,7 +10,7 @@ import butterknife.ButterKnife;
 import cn.wildfire.chat.kit.annotation.LayoutRes;
 import cn.wildfire.chat.kit.contact.UserListAdapter;
 import cn.wildfire.chat.kit.contact.model.FriendRequestValue;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.remote.ChatManager;
 
 @SuppressWarnings("unused")

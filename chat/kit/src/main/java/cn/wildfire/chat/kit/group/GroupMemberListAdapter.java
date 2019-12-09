@@ -18,7 +18,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.UserInfo;
 
 public class GroupMemberListAdapter extends RecyclerView.Adapter<GroupMemberListAdapter.MemberViewHolder> {

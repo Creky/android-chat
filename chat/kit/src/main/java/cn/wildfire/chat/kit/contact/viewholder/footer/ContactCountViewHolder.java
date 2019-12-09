@@ -9,7 +9,7 @@ import butterknife.ButterKnife;
 import cn.wildfire.chat.kit.annotation.LayoutRes;
 import cn.wildfire.chat.kit.contact.UserListAdapter;
 import cn.wildfire.chat.kit.contact.model.ContactCountFooterValue;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 @LayoutRes(resId = R.layout.contact_item_footer)
 public class ContactCountViewHolder extends FooterViewHolder<ContactCountFooterValue> {

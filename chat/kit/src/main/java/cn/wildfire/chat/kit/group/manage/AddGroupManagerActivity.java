@@ -15,7 +15,7 @@ import java.util.List;
 import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.group.BasePickGroupMemberActivity;
 import cn.wildfire.chat.kit.group.GroupViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class AddGroupManagerActivity extends BasePickGroupMemberActivity {
     private MenuItem menuItem;

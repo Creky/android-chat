@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import butterknife.BindView;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class WfcWebViewActivity extends WfcBaseActivity {
     private String url;

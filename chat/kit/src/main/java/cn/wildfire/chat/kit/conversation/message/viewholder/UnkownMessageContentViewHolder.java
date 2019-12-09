@@ -12,7 +12,7 @@ import cn.wildfire.chat.kit.annotation.ReceiveLayoutRes;
 import cn.wildfire.chat.kit.annotation.SendLayoutRes;
 import cn.wildfire.chat.kit.conversation.ConversationFragment;
 import cn.wildfire.chat.kit.conversation.message.model.UiMessage;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.message.UnknownMessageContent;
 
 @MessageContentType(UnknownMessageContent.class)

@@ -1,7 +1,7 @@
 package cn.wildfire.chat.kit.group;
 
 import cn.wildfire.chat.kit.WfcBaseActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.GroupInfo;
 
 public class GroupMemberListActivity extends WfcBaseActivity {

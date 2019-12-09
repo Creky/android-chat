@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
+import com.weilaizhihui.xchat.R;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -19,7 +20,6 @@ import cn.wildfire.chat.app.login.model.LoginResult;
 import cn.wildfire.chat.app.main.MainActivity;
 import cn.wildfire.chat.kit.ChatManagerHolder;
 import cn.wildfire.chat.kit.WfcBaseActivity;
-import cn.wildfirechat.chat.R;
 
 /**
  * use {@link SMSLoginActivity} instead

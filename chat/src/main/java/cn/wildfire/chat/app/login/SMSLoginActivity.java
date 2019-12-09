@@ -19,7 +19,7 @@ import cn.wildfire.chat.app.login.model.LoginResult;
 import cn.wildfire.chat.app.main.MainActivity;
 import cn.wildfire.chat.kit.ChatManagerHolder;
 import cn.wildfire.chat.kit.WfcBaseActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class SMSLoginActivity extends WfcBaseActivity {
     @BindView(R.id.loginButton)

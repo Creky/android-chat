@@ -16,7 +16,7 @@ import cn.wildfire.chat.kit.contact.model.UIUserInfo;
 import cn.wildfire.chat.kit.contact.viewholder.UserViewHolder;
 import cn.wildfire.chat.kit.search.SearchableModule;
 import cn.wildfire.chat.kit.user.UserInfoActivity;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.UserInfo;
 import cn.wildfirechat.remote.ChatManager;
 import cn.wildfirechat.remote.SearchUserCallback;

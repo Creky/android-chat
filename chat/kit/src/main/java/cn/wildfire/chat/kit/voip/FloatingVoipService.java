@@ -29,8 +29,8 @@ import androidx.core.app.NotificationCompat;
 import org.webrtc.StatsReport;
 
 import cn.wildfirechat.avenginekit.AVEngineKit;
-import cn.wildfirechat.chat.BuildConfig;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.BuildConfig;
+import com.weilaizhihui.xchat.R;
 
 import static org.webrtc.RendererCommon.ScalingType.SCALE_ASPECT_BALANCED;
 

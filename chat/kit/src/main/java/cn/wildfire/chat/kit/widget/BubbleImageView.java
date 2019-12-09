@@ -19,7 +19,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ImageView;
 
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 public class BubbleImageView extends ImageView {
 

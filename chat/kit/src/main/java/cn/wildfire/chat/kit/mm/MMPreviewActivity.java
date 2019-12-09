@@ -30,7 +30,7 @@ import cn.wildfire.chat.app.Config;
 import cn.wildfire.chat.kit.GlideApp;
 import cn.wildfire.chat.kit.third.utils.UIUtils;
 import cn.wildfire.chat.kit.utils.DownloadManager;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 /**
  * @author imndx

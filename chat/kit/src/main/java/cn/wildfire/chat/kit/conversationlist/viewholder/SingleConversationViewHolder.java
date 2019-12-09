@@ -14,7 +14,7 @@ import cn.wildfire.chat.kit.GlideApp;
 import cn.wildfire.chat.kit.annotation.ConversationInfoType;
 import cn.wildfire.chat.kit.annotation.EnableContextMenu;
 import cn.wildfire.chat.kit.user.UserViewModel;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 import cn.wildfirechat.model.Conversation;
 import cn.wildfirechat.model.ConversationInfo;
 import cn.wildfirechat.model.UserInfo;

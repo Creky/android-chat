@@ -33,7 +33,7 @@ import java.util.Set;
 
 import androidx.appcompat.widget.LinearLayoutCompat;
 import cn.wildfire.chat.kit.utils.ServiceUtil;
-import cn.wildfirechat.chat.R;
+import com.weilaizhihui.xchat.R;
 
 /**
  * LinearLayout that, when a view container, will report back when it thinks a soft keyboard
